@@ -10,7 +10,7 @@ An example of usage graphql-upload scalar (TypeScript)
 
 <h2>Quick start</h2>
 <ol>
-  <li>Clone this repo using <code>git clone https://github.com/ricosandyca12/graphql-upload-scalar.git</code></li>
+  <li>Clone this repo using <code>git clone https://github.com/ricosandyca/graphql-upload-scalar.git</code></li>
   <li>Run <code>yarn</code> or <code>npm install</code> to install dependencies</li>
   <li>Run <code>npm run db</code> to enable <a href='https://github.com/typicode/json-server' target='_blank'>JSON Server</a> for REST API</li>
   <li>Run <code>npm run dev</code> to start the server</li>
