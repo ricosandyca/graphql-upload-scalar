@@ -1,0 +1,19 @@
+# import File from 'File.graphql'
+
+type Author {
+  id: ID
+  name: String
+  age: Int
+  files: [File]
+}
+
+type Query {
+  authors: [Author]
+  author(id: ID!): Author
+}
+
+type Mutation {
+  createAuthor(name: String! age: Int!): Author
+  updateAuthor(id: ID! name: String! age: Int!): Author
+  deleteAuthor(id: ID!): Author
+}

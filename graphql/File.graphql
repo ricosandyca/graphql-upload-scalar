@@ -1,0 +1,21 @@
+# import Author from 'Author.graphql'
+
+scalar Upload
+
+type File {
+  id: ID
+  filename: String
+  path: String
+  author: Author
+}
+
+type Query {
+  files: [File]
+  file(id: ID!): File
+}
+
+type Mutation {
+  createFile(authorId: String! file: Upload!): File
+  updateFile(id: ID! authorId: String! file: Upload!): File
+  deleteFile(id: ID!): File
+}
