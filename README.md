@@ -4,7 +4,7 @@ An example of usage graphql-upload scalar (TypeScript)
 <h2>Requirement</h2>
 <blockquote>You need some DevDependencies to run this repo like:</blockquote>
 <ol>
-  <li <a href='https://www.npmjs.com/package/typescript' target='_blank'>TypeScript</a></li>
+  <li><a href='https://www.npmjs.com/package/typescript' target='_blank'>TypeScript</a></li>
   <li><a href='https://www.npmjs.com/package/nodemon' target='_blank'>Nodemon</a></li>
   <li><a href='https://www.npmjs.com/package/concurrently' target='_blank'>Concurrently</a></li>
 </ol>
