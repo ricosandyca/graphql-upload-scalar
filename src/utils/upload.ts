@@ -17,7 +17,6 @@ const validateMime: (mimetype: string, allowedType: Array<string>) => boolean = 
 const saveFile: (stream: any, filename: string) => Promise<string | null> = (stream, filename) => {
   filename = `${new Date().toISOString()}_${filename}`
   const savedNewFile = `${dest}/${filename}`
-  console.log(savedNewFile)
   return new Promise<string | null>((resolve, reject) => {
     stream
       .on('error', () => reject())
